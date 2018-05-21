@@ -23,9 +23,9 @@ public class VentanaLogin {
     private String nombreCuenta;
     List<Jugador> jugadores = JugadorB.jugadores();/**/
 
-    public void main(String[] args){
+    public static void main(String[] args){
         JFrame frame = new JFrame("Login");
-        frame.setContentPane(VentanaLogin);
+        frame.setContentPane(new VentanaLogin());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
