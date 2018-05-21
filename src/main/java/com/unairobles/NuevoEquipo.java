@@ -1,7 +1,6 @@
 package com.unairobles;
 
 import com.sun.tools.javac.code.Scope;
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
