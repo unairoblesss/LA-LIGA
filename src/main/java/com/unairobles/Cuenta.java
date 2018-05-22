@@ -43,8 +43,8 @@ public class Cuenta {
                 '}';
     }
 
-    /* ASOCIACIÓN -> NI PUTA IDEA PA QUE SIRVE ESTO
-    private Duenyo duenyo;*/
+
+    private Dueno dueno;
 
 
 }

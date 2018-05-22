@@ -61,7 +61,6 @@ public class Equipo {
     private int dueno;
     private List<Jugador> jugadores;
 
-/* FALTA ALGUNA ASOCIACION EQUIPO SUEÑOS FIJO*/
 
     private List<Jugador> listaJugadores = new ArrayList<>();
     private List<Dueno> listaDuenos = new ArrayList<>();

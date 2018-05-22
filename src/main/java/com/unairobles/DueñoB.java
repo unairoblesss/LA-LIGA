@@ -39,7 +39,7 @@ class DuenoB {
         return dueno;
     }
 
-    
+
 
 
 }
