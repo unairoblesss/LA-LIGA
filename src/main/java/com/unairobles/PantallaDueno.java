@@ -5,7 +5,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
-import static com.unairobles.JugadorB.jugadores1;
 public class PantallaDueno {
     private JPanel PantallaDueño;
     private JButton Resultados;
