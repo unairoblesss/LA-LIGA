@@ -7,7 +7,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-class CuentaBD {
+class CuentaB {
 
     // Lista de todas las cuentas
     public static List<Cuenta> cuentas() {

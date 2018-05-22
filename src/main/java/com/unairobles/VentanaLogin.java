@@ -1,6 +1,7 @@
 package com.unairobles;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
@@ -11,21 +12,21 @@ import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VentanaLogin {
-    private JPanel VentanaLogin;
+public class VentanaLogin  {
+    private static JPanel VentanaLogin;
     private JTextField nickname;
     private JTextField password;
     private JButton login;
     private JLabel log;
 
 
-    List<Cuenta> cuentas = com.unairobles.CuentaBD.cuentas();
+    List<Cuenta> cuentas = com.unairobles.CuentaB.cuentas();
     private String nombreCuenta;
-    List<Jugador> jugadores = JugadorB.jugadores();/**/
+    List<Jugador> jugadores = JugadorB.jugadores(int codEquipo);
 
     public static void main(String[] args){
         JFrame frame = new JFrame("Login");
-        frame.setContentPane(new VentanaLogin());
+        frame.setContentPane(VentanaLogin);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);

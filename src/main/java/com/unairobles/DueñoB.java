@@ -9,11 +9,11 @@ import java.util.List;
 
 class DuenoB {
 
-    // Para saber el código del dueño
+
     public static Dueno dueno(String nombre) {
         Dueno dueno = null;
 
-        // Conexión a la BD
+
         Connection conexion = BaseDatos.conectar();
 
         try {
@@ -39,7 +39,7 @@ class DuenoB {
         return dueno;
     }
 
-    // Para saber los equipos que tiene el dueño
+    
 
 
 }

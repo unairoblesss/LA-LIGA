@@ -1,6 +1,5 @@
 package com.unairobles;
 
-import com.sun.tools.javac.code.Scope;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -11,8 +10,8 @@ public class NuevoEquipo {
     private JTextField nombreEquip;
     private JTextField DuenoEqui;
     private JPanel NuevoEquipo;
-    private List<Equipo> equipos = EquipoB.equipos();
-    private List<Dueno> duenos = DuenoB.dueno();
+    private List<Equipo> equipos = EquipoB.equipos(int codDueno);
+    private List<Dueno> duenos = DuenoB.dueno(String nombre);
     public NuevoEquipo() {
         JFrame frame = new JFrame("NuevoEquipo");
         frame.setContentPane(NuevoEquipo);

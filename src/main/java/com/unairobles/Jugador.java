@@ -1,5 +1,6 @@
 package com.unairobles;
 
+
 public class Jugador extends Usuario {
     private int codJugador;
     private String nombre;
@@ -27,7 +28,7 @@ public class Jugador extends Usuario {
     }
 
     public Jugador(String dni, String nombre, String fechaNac, int edad, String poblacion, String nickname, int salario, String fechaAlta, String posicion, Equipo equipo) {
-        this.codJugador=-1; //el jugador no existe
+        this.codJugador=-1;
         this.nickname = nickname;
         this.salario = salario;
         this.fechaAlta = fechaAlta;
@@ -39,7 +40,7 @@ public class Jugador extends Usuario {
         this.nombre=nombre;
     }
 
-    public Jugador(int codJugador, String nombre, String nickname, int salario, String fechaAlta, String posicion, int equipo_codEquipo) {
+    public Jugador(int codJugador, String nombre, String nickname, int salario, String fechaAlta, String posicion, int codEquipo) {
         this.nombre=nombre;
         this.codJugador = codJugador;
         this.nickname = nickname;
