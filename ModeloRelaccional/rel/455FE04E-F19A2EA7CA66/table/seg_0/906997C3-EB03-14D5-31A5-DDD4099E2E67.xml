@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="906997C3-EB03-14D5-31A5-DDD4099E2E67" name="disputan">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Partido_nºpartido" id="839F249C-6D7C-82F2-8BC3-4B225CBFB0FF">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27EE24AD-C210-A356-C24C-F202F7BA75C9" referredColumn="6BC59605-4FEE-4894-AFB8-501CF7780E70"/>
+</associations>
+</Column>
+<Column name="Equipo_nombreE" id="36D5A996-3572-8010-E084-F46646448C57">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39050C50-4C39-6383-6563-8ED063D0F463" referredColumn="50C98BD2-4092-6F6A-CFC6-BD5A3C3E29FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="048FE3BA-ED06-1DF0-0DF9-3B861ADC786E" name="disputan_PK">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="839F249C-6D7C-82F2-8BC3-4B225CBFB0FF"/>
+<colUsage columnID="36D5A996-3572-8010-E084-F46646448C57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A5A47EE-C9A1-001B-2B6C-27FD47EF842C" name="disputan_Partido_FK">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>F06A177A-D4B9-BF40-4768-01E331EF29D5</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="839F249C-6D7C-82F2-8BC3-4B225CBFB0FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8A21A33-1B86-A707-DAF6-2F74BCAB7EC8" name="disputan_Equipo_FK">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>F06A177A-D4B9-BF40-4768-01E331EF29D5</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36D5A996-3572-8010-E084-F46646448C57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

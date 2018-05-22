@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="27EE24AD-C210-A356-C24C-F202F7BA75C9" containerWithKeyObject="906997C3-EB03-14D5-31A5-DDD4099E2E67" localFKIndex="2A5A47EE-C9A1-001B-2B6C-27FD47EF842C" name="disputan_Partido_FK">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>F06A177A-D4B9-BF40-4768-01E331EF29D5</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<referredTableLongName>Partido</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>662D49DA-1A6F-0B88-7E43-BCAF89F72FF9</referredTableID>
+<keyObject>B88C4FF1-A6AA-9AD4-53FE-E7669AE7E456</keyObject>
+<referredKeyID>B88C4FF1-A6AA-9AD4-53FE-E7669AE7E456</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nºpartido</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

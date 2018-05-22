@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A37FA1E2-C5B6-3E27-83D9-5F1753F05CF7" name="Jugador">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 18:55:58 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre" id="6438A1DC-8F3F-D864-489A-30337BA20F72">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 18:56:35 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nickname" id="737C0E60-BEC2-4E41-CF08-D76BE075438B">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:05:25 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sueldo" id="E34613B6-4528-10D4-2F86-504B81ED9FDB">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:06:28 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="92E963EC-35C7-DFD3-C083-0CF7FB4A3F2B" name="Jugador PK">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:05:26 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>737C0E60-BEC2-4E41-CF08-D76BE075438B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

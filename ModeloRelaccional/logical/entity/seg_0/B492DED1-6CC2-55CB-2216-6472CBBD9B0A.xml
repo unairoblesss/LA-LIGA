@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B492DED1-6CC2-55CB-2216-6472CBBD9B0A" name="Jornada">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:11:35 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nºjornada" id="128B2B81-B728-BA66-E5E4-13C321155C55">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:12:01 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechas" id="D1C4A3DA-245A-6B4D-480B-135CDD657887">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:12:35 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BE0E6613-F4A3-4B33-F40E-91F9E661C10B" name="Jornada PK">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:12:48 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>128B2B81-B728-BA66-E5E4-13C321155C55</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

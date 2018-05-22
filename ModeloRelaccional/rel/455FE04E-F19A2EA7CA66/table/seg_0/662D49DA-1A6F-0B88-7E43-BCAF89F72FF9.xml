@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="662D49DA-1A6F-0B88-7E43-BCAF89F72FF9" name="Partido">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>DFC02513-89A6-C60E-EC0E-81282314B939</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fecha" id="D8927CF4-E4A6-620A-6FB0-9CDB1567CBE5">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>237A0967-A2B4-1586-0D6E-42D73DA45E98</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nºpartido" id="6BC59605-4FEE-4894-AFB8-501CF7780E70">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>0A218883-FC2A-7162-1966-D42F0814E1CD</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ganador" id="FCCD82C7-C159-ADB1-FF60-4D62345FB930">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>0B02639B-FF3E-66B3-1891-3BB275CD107B</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jornada_nºjornada" id="B030D069-7147-C7ED-8CBF-CDEB48319F02">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>92122A95-D0EF-3FAC-189A-92D6442DB67B</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="816FBE81-960E-A40A-4A84-41B18E47668F" referredColumn="04671A4E-9425-36C6-F74E-427D0AE2A35F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B88C4FF1-A6AA-9AD4-53FE-E7669AE7E456" name="Partido_PK">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>C913CF70-51DC-81C9-986B-D7F6157EF460</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BC59605-4FEE-4894-AFB8-501CF7780E70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EE5E7FE-659B-DCA3-4946-2722469D6CE2" name="Partido_Jornada_FK">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>58824168-46D0-C4EC-2939-3A0FE16135F6</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B030D069-7147-C7ED-8CBF-CDEB48319F02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

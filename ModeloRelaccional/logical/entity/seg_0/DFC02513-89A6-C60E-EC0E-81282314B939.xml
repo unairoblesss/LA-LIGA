@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DFC02513-89A6-C60E-EC0E-81282314B939" name="Partido">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:09:57 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha" id="237A0967-A2B4-1586-0D6E-42D73DA45E98">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:10:11 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nºpartido" id="0A218883-FC2A-7162-1966-D42F0814E1CD">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:10:26 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ganador" id="0B02639B-FF3E-66B3-1891-3BB275CD107B">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:10:57 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nºjornada" id="92122A95-D0EF-3FAC-189A-92D6442DB67B">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:18:04 UTC</createdTime>
+<generatorID>58824168-46D0-C4EC-2939-3A0FE16135F6</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<referedAttribute>128B2B81-B728-BA66-E5E4-13C321155C55</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C913CF70-51DC-81C9-986B-D7F6157EF460" name="Partido PK">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:10:42 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0A218883-FC2A-7162-1966-D42F0814E1CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

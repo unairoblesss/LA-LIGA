@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42A4FA7A-A7B4-F20B-AC1A-4286AA4901D4" name="Equipo">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:07:59 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombreE" id="8876EA4D-5099-15A7-8FA4-137ECE865B3B">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:08:15 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nickname" id="631C1B94-81C3-5507-A5F8-B8B4B9671A79">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:16:44 UTC</createdTime>
+<generatorID>DF631834-22FF-A5A0-880A-00190ADFC88C</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<referedAttribute>737C0E60-BEC2-4E41-CF08-D76BE075438B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreD" id="27500001-E8D1-5357-C164-E7031A5D2398">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:19:59 UTC</createdTime>
+<generatorID>DA30B0B7-71BB-C26E-EEA0-6039EE43EE5F</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<referedAttribute>98383692-C2E8-978B-F3B6-43FB74A2722A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="87A1D172-108E-EBBA-9BB8-87BD4015CB9D" name="Equipo PK">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:08:36 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8876EA4D-5099-15A7-8FA4-137ECE865B3B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

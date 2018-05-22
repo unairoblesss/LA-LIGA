@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C6A8D5D-46E6-02D5-1A15-61080A0C6F78" name="Calendario">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>B80AC6E0-7872-13A9-1141-DCDB6264F453</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fechas" id="62B2CDB1-27A2-65AE-C958-FDE7DE6DB3DE">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>243C9CB5-6447-0199-7B8E-F2A1A9ACFB15</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jornada_nºjornada" id="CE298B9C-CBE9-3DD3-F10A-4292C43653E3">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>B9C2F584-842B-ED98-0AF2-56AD5642A9CE</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9EF7BF2A-A579-88DA-18FC-024F12E3FF6B" referredColumn="04671A4E-9425-36C6-F74E-427D0AE2A35F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF408882-F18A-6330-49E2-F53F778AF3F8" name="Calendario_PK">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>B86E7F57-7528-1E24-EC92-242F9EECBA4C</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62B2CDB1-27A2-65AE-C958-FDE7DE6DB3DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B19AA94A-1099-FF69-198F-33644CE4573B" name="Calendario_Jornada_FK">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>B297949C-6306-6BC9-86EC-43334AEF23FD</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE298B9C-CBE9-3DD3-F10A-4292C43653E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

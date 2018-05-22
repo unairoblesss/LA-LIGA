@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="disputan" directorySegmentName="seg_0" id="F06A177A-D4B9-BF40-4768-01E331EF29D5">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:17:30 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>DFC02513-89A6-C60E-EC0E-81282314B939</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>42A4FA7A-A7B4-F20B-AC1A-4286AA4901D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

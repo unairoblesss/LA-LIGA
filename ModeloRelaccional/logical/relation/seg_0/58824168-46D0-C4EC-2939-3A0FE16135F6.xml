@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ocurren en" directorySegmentName="seg_0" id="58824168-46D0-C4EC-2939-3A0FE16135F6">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:18:04 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<engineerTo>
+<item key="455FE04E-0D67-3B47-F4C6-F19A2EA7CA66" value="true"/>
+</engineerTo>
+<sourcePk>BE0E6613-F4A3-4B33-F40E-91F9E661C10B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B492DED1-6CC2-55CB-2216-6472CBBD9B0A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DFC02513-89A6-C60E-EC0E-81282314B939</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

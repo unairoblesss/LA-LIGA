@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE475245-3436-DCFD-95D4-008B53824C5D" name="DueñoEquipo">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>2E2A36DB-B14E-F315-DC6E-3A2780B64C50</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombreD" id="6686359B-B75A-A0AE-3AA8-2F0D1BF5741A">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>98383692-C2E8-978B-F3B6-43FB74A2722A</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DueñoEquipo_nombreD" id="ADEBDE8A-3931-3DA5-80D0-A8AB02959066">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>8B38E01B-40A7-C4C6-5B91-4EA8682F19A8</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="304C5912-0387-B29F-EFE1-B67035AF9FD9" referredColumn="6686359B-B75A-A0AE-3AA8-2F0D1BF5741A"/>
+</associations>
+</Column>
+<Column name="Equipo_nombreE" id="59DA0177-C6AE-1179-057D-900EC498AD70">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>5433353A-9E55-1FD2-6720-1F7A532B051A</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="547E0FBD-0FC6-1D2D-8623-16059ECF0988" name="DueñoEquipo_PK">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>368DDBB8-9484-3823-6365-3B094707C942</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6686359B-B75A-A0AE-3AA8-2F0D1BF5741A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14B1DA44-EFF7-640D-E528-DBD830D2DC0F" name="DueñoEquipo__IDX">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EFDF8A93-054D-AEFF-AC21-9E5C2457670D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="ADEBDE8A-3931-3DA5-80D0-A8AB02959066"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="397B6E11-CE67-0742-44FF-64CEC4787C1D" name="DueñoEquipo__IDXv1">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DA30B0B7-71BB-C26E-EEA0-6039EE43EE5F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="59DA0177-C6AE-1179-057D-900EC498AD70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40B1626A-E0EA-F6E0-28E7-1C92CF4E6FE1" name="DueñoEquipo_DueñoEquipo_FK">
+<createdBy>UnaiRobles</createdBy>
+<createdTime>2018-04-20 19:21:54 UTC</createdTime>
+<generatorID>EFDF8A93-054D-AEFF-AC21-9E5C2457670D</generatorID>
+<ownerDesignName>ModeloRelaccional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADEBDE8A-3931-3DA5-80D0-A8AB02959066"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
