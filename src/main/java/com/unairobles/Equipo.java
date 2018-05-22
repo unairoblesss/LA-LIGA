@@ -15,7 +15,7 @@ public class Equipo {
         this.dueno = dueno;/*NI GETTES NI SETTERS NI NAH*/
     }
 
-    public Equipo(String codEquipo, Dueno nombre) {
+    public Equipo(int codEquipo, String nombre) {
         this.codEquipo = codEquipo;
         this.nombre = nombre;
     }

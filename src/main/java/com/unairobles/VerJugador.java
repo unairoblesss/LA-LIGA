@@ -20,7 +20,7 @@ public class VerJugador {
     frame.pack();
     frame.setVisible(true);
 
-    jugadores = JugadorB.jugadores(int codEquipo);/**/
+
     actualizarLista();
     tabla = new JTable();
     tabla.setModel(new DefaultTableModel());

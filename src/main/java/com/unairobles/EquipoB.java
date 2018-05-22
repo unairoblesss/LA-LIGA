@@ -94,5 +94,8 @@ public class EquipoB {
         return estado;
 
     }
+
+
+
 }
 

@@ -9,7 +9,7 @@ public class Jugador extends Usuario {
     private int salario;
     private String fechaAlta;
     private String posicion;
-    
+
     public Jugador(int codJugador, String nombre, String nickname, int salario, String fechaAlta, String posicion) {
         this.codJugador = codJugador;
         this.nombre = nombre;

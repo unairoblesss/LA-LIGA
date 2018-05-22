@@ -18,7 +18,7 @@ public class VentanaLogin  {
 
     List<Cuenta> cuentas = com.unairobles.CuentaB.cuentas();
     private String nombreCuenta;
-    List<Jugador> jugadores = JugadorB.jugadores(int codEquipo);
+
 
     public static void main(String[] args){
         JFrame frame = new JFrame("Login");

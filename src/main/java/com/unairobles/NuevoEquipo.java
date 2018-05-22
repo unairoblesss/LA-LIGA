@@ -10,8 +10,8 @@ public class NuevoEquipo {
     private JTextField nombreEquip;
     private JTextField DuenoEqui;
     private JPanel NuevoEquipo;
-    private List<Equipo> equipos = EquipoB.equipos(int codDueno);
-    private List<Dueno> duenos = DuenoB.dueno(String nombre);
+    private List<Equipo> equipos = EquipoB.equipos();
+    private List<Dueno> duenos = DuenoB.dueno(int codDueno);
     public NuevoEquipo() {
         JFrame frame = new JFrame("NuevoEquipo");
         frame.setContentPane(NuevoEquipo);
@@ -36,7 +36,7 @@ public class NuevoEquipo {
                 }
                 System.out.println(duenoEncontrado.getCodDueno());
                 Equipo crearEquipo = new Equipo(nombreEquip.getText(), duenoEncontrado);
-                equipos = EquipoB.equipos();
+                equipos = EquipoB.equipos(codDueno);
             }
         });
     }
