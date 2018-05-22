@@ -7,7 +7,7 @@ public class Equipo {
     private String nombre;
     private int anoFundacion;
 
-    // CONSTRUCTORES
+  
     public Equipo(int codEquipo, String nombre, int anoFundacion, int dueno) {
         this.codEquipo = codEquipo;
         this.nombre = nombre;
